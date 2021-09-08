@@ -12,6 +12,7 @@ from .resnet import ResNet, ResNetV1d
 from .resnext import ResNeXt
 from .ssd_vgg import SSDVGG
 from .trident_resnet import TridentResNet
+from .vit_swin import SwinTransformerFPN, SwinTransformerFPNWrap
 
 __all__ = [
     'RegNet', 'ResNet', 'ResNetV1d', 'ResNeXt', 'SSDVGG', 'HRNet',

@@ -1,0 +1,198 @@
+{
+    "swin_tiny_patch4_window7_224": {
+        "name": "swin_tiny_patch4_window7_224",
+        "drop_path_rate": 0.2,
+        "embed_dim": 96,
+        "depths": [
+            2,
+            2,
+            6,
+            2
+        ],
+        "num_heads": [
+            3,
+            6,
+            12,
+            24
+        ],
+        "window_size": 7,
+        "img_size": 224,
+        "crop": false,
+        "urls": {
+            "": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_small_patch4_window7_224.pth",
+            "_moby": "https://github.com/SwinTransformer/storage/releases/download/v1.0.3/moby_swin_t_300ep_pretrained.pth",
+            "_22k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22k.pth",
+            "_22kto1k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22kto1k.pth"
+        },
+        "stages": 4,
+        "num_channels": 768
+    },
+    "swin_base_patch4_window12_384": {
+        "name": "swin_base_patch4_window12_384",
+        "drop_path_rate": 0.2,
+        "embed_dim": 128,
+        "depths": [
+            2,
+            2,
+            18,
+            2
+        ],
+        "num_heads": [
+            4,
+            8,
+            16,
+            32
+        ],
+        "window_size": 12,
+        "img_size": 384,
+        "crop": false,
+        "urls": {
+            "": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_small_patch4_window7_224.pth",
+            "_moby": "https://github.com/SwinTransformer/storage/releases/download/v1.0.3/moby_swin_t_300ep_pretrained.pth",
+            "_22k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22k.pth",
+            "_22kto1k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22kto1k.pth"
+        },
+        "stages": 4,
+        "num_channels": 1024
+    },
+    "swin_large_patch4_window7_224": {
+        "name": "swin_large_patch4_window7_224",
+        "drop_path_rate": 0.2,
+        "embed_dim": 192,
+        "depths": [
+            2,
+            2,
+            18,
+            2
+        ],
+        "num_heads": [
+            6,
+            12,
+            24,
+            48
+        ],
+        "window_size": 7,
+        "img_size": 224,
+        "crop": false,
+        "urls": {
+            "": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_small_patch4_window7_224.pth",
+            "_moby": "https://github.com/SwinTransformer/storage/releases/download/v1.0.3/moby_swin_t_300ep_pretrained.pth",
+            "_22k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22k.pth",
+            "_22kto1k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22kto1k.pth"
+        },
+        "stages": 4,
+        "num_channels": 1536
+    },
+    "swin_tiny_c24_patch4_window8_256": {
+        "name": "swin_tiny_c24_patch4_window8_256",
+        "drop_path_rate": 0.2,
+        "embed_dim": 96,
+        "depths": [
+            2,
+            2,
+            6,
+            2
+        ],
+        "num_heads": [
+            4,
+            8,
+            16,
+            32
+        ],
+        "window_size": 8,
+        "img_size": 256,
+        "crop": false,
+        "urls": {
+            "": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_small_patch4_window7_224.pth",
+            "_moby": "https://github.com/SwinTransformer/storage/releases/download/v1.0.3/moby_swin_t_300ep_pretrained.pth",
+            "_22k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22k.pth",
+            "_22kto1k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22kto1k.pth"
+        },
+        "stages": 4,
+        "num_channels": 768
+    },
+    "swin_base_patch4_window7_224": {
+        "name": "swin_base_patch4_window7_224",
+        "drop_path_rate": 0.5,
+        "embed_dim": 128,
+        "depths": [
+            2,
+            2,
+            18,
+            2
+        ],
+        "num_heads": [
+            4,
+            8,
+            16,
+            32
+        ],
+        "window_size": 7,
+        "img_size": 224,
+        "crop": false,
+        "urls": {
+            "": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_small_patch4_window7_224.pth",
+            "_moby": "https://github.com/SwinTransformer/storage/releases/download/v1.0.3/moby_swin_t_300ep_pretrained.pth",
+            "_22k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22k.pth",
+            "_22kto1k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22kto1k.pth"
+        },
+        "stages": 4,
+        "num_channels": 1024
+    },
+    "swin_small_patch4_window7_224": {
+        "name": "swin_small_patch4_window7_224",
+        "drop_path_rate": 0.3,
+        "embed_dim": 96,
+        "depths": [
+            2,
+            2,
+            18,
+            2
+        ],
+        "num_heads": [
+            3,
+            6,
+            12,
+            24
+        ],
+        "window_size": 7,
+        "img_size": 224,
+        "crop": false,
+        "urls": {
+            "": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_small_patch4_window7_224.pth",
+            "_moby": "https://github.com/SwinTransformer/storage/releases/download/v1.0.3/moby_swin_t_300ep_pretrained.pth",
+            "_22k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22k.pth",
+            "_22kto1k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22kto1k.pth"
+        },
+        "stages": 4,
+        "num_channels": 768
+    },
+    "swin_large_patch4_window12_384": {
+        "name": "swin_large_patch4_window12_384",
+        "drop_path_rate": 0.2,
+        "embed_dim": 192,
+        "depths": [
+            2,
+            2,
+            18,
+            2
+        ],
+        "num_heads": [
+            6,
+            12,
+            24,
+            48
+        ],
+        "window_size": 12,
+        "img_size": 384,
+        "crop": false,
+        "urls": {
+            "": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_small_patch4_window7_224.pth",
+            "_moby": "https://github.com/SwinTransformer/storage/releases/download/v1.0.3/moby_swin_t_300ep_pretrained.pth",
+            "_22k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22k.pth",
+            "_22kto1k": "https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_large_patch4_window12_384_22kto1k.pth"
+        },
+        "stages": 4,
+        "num_channels": 1536
+    }
+}

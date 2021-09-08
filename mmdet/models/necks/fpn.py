@@ -146,6 +146,8 @@ class FPN(BaseModule):
                     act_cfg=act_cfg,
                     inplace=False)
                 self.fpn_convs.append(extra_fpn_conv)
+        
+        self.to('cuda')
 
     @auto_fp16()
     def forward(self, inputs):
