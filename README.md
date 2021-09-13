@@ -2,6 +2,27 @@
 
 This repo contains the supported code and configuration files to reproduce object detection results of [Swin Transformer](https://arxiv.org/pdf/2103.14030.pdf). It is based on [mmdetection](https://github.com/open-mmlab/mmdetection).
 
+## Custom Installation
+```
+conda create -n swin_od python=3.8 -y
+conda activate swin_od
+
+conda install pytorch==1.9.0 torchvision==0.10.0 cudatoolkit=11.1 -c pytorch -c nvidia -y
+python -m pip install --upgrade pip==21.2.4
+python -m pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/index.html
+python -m pip install pandas numpy plotly nbformat==4.2 timm
+
+python -m pip install -r requirements/build.txt
+python -m pip install -v -e .
+
+```
+
+Test run:
+```
+python tools/train.py configs/swin/cmrcnn_swin_custom_person.py
+```
+
+
 ## Updates
 
 ***05/11/2021*** Models for [MoBY](https://github.com/SwinTransformer/Transformer-SSL) are released
